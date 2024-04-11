@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1C2541;
+    display: grid;
+    grid-template-columns: 1;
+    grid-auto-rows: 4;
+    grid-gap: 1rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: #4F86C6;
+}
+
+.green {
+    background-color: #06BA63;
+}
+
+.orange {
+    background-color: #F49E4C;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolsList {
+    background-color: white;
+}
+
+ul, ol {
+    padding: 0rem 2rem;
+}
+
+.availability__no::marker {
+    color: red;
+}
+
+.availability__yes::marker {
+    color: green;
+}
+
+.link, h1 {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 2rem;
+}
+
+.smallLink {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2rem;
+}
